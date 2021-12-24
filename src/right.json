@@ -1,0 +1,118 @@
+{
+  "cards": [
+    {
+      "image": "'https://static-assets.codecademy.com/assets/components/resources/video/standard/group-79.svg'",
+      "span": "Video",
+      "h3": "What Programming Language Should You Learn?"
+    },
+    {
+      "image": "'https://static-assets.codecademy.com/assets/components/resources/blog/standard/group-59.svg'",
+      "span": "Blog",
+      "h3": "How to stay motivated when learning to code"
+    },
+    {
+      "image": "'https://static-assets.codecademy.com/assets/components/resources/blog/standard/group-60.svg'",
+      "span": "Blog",
+      "h3": "What does a Data Scientist do?"
+    }
+  ],
+
+  "get_inspired": [
+    {
+      "link": "Video",
+      "title": "What is a Programming Language ?"
+    },
+
+    {
+      "link": "Blog",
+      "title": "Our First Mobile Development Path has arrived"
+    },
+
+    {
+      "link": "Video",
+      "title": "How to think like a programmer."
+    },
+
+    {
+      "link": "Video",
+      "title": "What is a Programming Language ?"
+    }
+  ],
+
+  "get_inspired_image": {
+    "url": "'https://images.ctfassets.net/go6kr6r0ykrq/12jJ3cWg…M8/ff0e4bd1d60c86f8580a067e2f267854/image__7_.png'"
+  },
+
+  "Big_Card": {
+    "image": "'https://static-assets.codecademy.com/assets/components/resources/article/standard/group-7.svg'",
+    "span": "Article",
+    "h3": "Consider Design While You Build"
+  },
+  "Big_Card_Side": [
+    { "span": "Article", "h3": "What is Programming" },
+    {
+      "span": "Video",
+      "h3": "Learn From Home Day: Intro to JavaScript—the Language of the Internet!"
+    },
+    { "span": "Video", "h3": "What is Front-End?" },
+    { "span": "Blog", "h3": "Myspace and the Coding Legacy" }
+  ],
+
+  "languages": [
+    {
+      "title": "HTML & CSS",
+      "description": "explore all",
+      "url": "'https://static-assets.codecademy.com/assets/components/cards/explore-category-card/language/python.svg'",
+      "type": ""
+    },
+    {
+      "title": "PYTHON",
+      "description": "explore all",
+      "url": "'https://static-assets.codecademy.com/assets/components/cards/explore-category-card/subject/web-development.svg'",
+      "type": ""
+    },
+    {
+      "title": "HTML",
+      "description": "explore all",
+      "url": "'https://static-assets.codecademy.com/assets/components/cards/explore-category-card/subject/data-science.svg'",
+      "type": ""
+    },
+    {
+      "title": "swift",
+      "description": "explore all",
+      "url": "'https://static-assets.codecademy.com/assets/components/cards/explore-category-card/language/javascript.svg'",
+      "type": ""
+    },
+    {
+      "title": "R",
+      "description": "explore all",
+      "url": "'https://static-assets.codecademy.com/components/curriculum/path/front-end-engineer-career-path/curriculum-card.svg'",
+      "type": ""
+    },
+    {
+      "title": "C++",
+      "description": "explore all",
+      "url": "'https://static-assets.codecademy.com/assets/components/cards/explore-category-card/language/python.svg'",
+      "type": ""
+    },
+    {
+      "title": "JAVA",
+      "description": "explore all",
+      "url": "'https://static-assets.codecademy.com/assets/components/cards/explore-category-card/subject/data-science.svg'",
+      "type": ""
+    },
+    {
+      "title": "Shell",
+      "description": "explore all",
+      "url": "'https://static-assets.codecademy.com/assets/components/cards/explore-category-card/language/python.svg'",
+      "type": ""
+    },
+    {
+      "title": "kotlin",
+      "description": "explore all",
+      "url": "'https://static-assets.codecademy.com/assets/components/cards/explore-category-card/subject/data-science.svg'",
+      "type": ""
+    }
+  ],
+  "abc": [{}]
+}
