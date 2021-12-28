@@ -46,15 +46,6 @@
       </li>
     </ul>
     <div id="banner-ad" style="width: 300px; height: 250px"></div>
-    <div class="ad-container" style="border: 1px solid">
-      <Adsense
-        data-ad-client="ca-pub-1234567891234567"
-        data-ad-slot="1234567890"
-        data-ad-format="auto"
-        :data-full-width-responsive="true"
-      >
-      </Adsense>
-    </div>
   </div>
 </template>
 

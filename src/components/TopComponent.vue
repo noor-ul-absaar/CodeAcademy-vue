@@ -11,7 +11,10 @@
       style="background-color: #fff0e5"
     >
       <div class="container-fluid" style="background-color: #fff0e5">
-        <a class="navbar-brand" href="">CodeAcademy</a>
+        <img
+          src="./codeAcademy.jpeg"
+          alt="my-app\src\components\codeAcademy.jpeg"
+        />
         <button
           class="navbar-toggler"
           type="button"
@@ -30,7 +33,7 @@
           >
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
-                >Cataloug</a
+                >Catalog</a
               >
             </li>
             <li class="nav-item">
@@ -71,7 +74,9 @@
             </button>
           </form>
         </div>
-        <button v-on:click="say()" class="btn btn-outline-primary mx-lg-2">{{btnText}}</button>
+        <button v-on:click="say()" class="btn btn-outline-primary mx-lg-2">
+          {{ btnText }}
+        </button>
         <button class="btn btn-primary mx-lg-1">Sign Up</button>
       </div>
     </nav>
@@ -79,11 +84,10 @@
 </template>
 
 <script>
-import firebase from "firebase/compat/app"
-import "firebase/compat/auth"
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
 
 const firebaseConfig = {
-
   apiKey: "AIzaSyBSDpUN3-xjPAinfw5lIxqMC_4h9pcth9w",
 
   authDomain: "vue-project-38265.firebaseapp.com",
@@ -96,30 +100,26 @@ const firebaseConfig = {
 
   appId: "1:190212779702:web:88122be4395cbfdbc68017",
 
-  measurementId: "G-NS75V1NTRX"
-
+  measurementId: "G-NS75V1NTRX",
 };
 export default {
   name: "TopComponent",
   data() {
-      return {
-         btnText: 'login with google',
-         disableBtn: false
-      }
-   },
+    return {
+      btnText: "login with google",
+      disableBtn: false,
+    };
+  },
   methods: {
-    
     say: function () {
-
       if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-}
-     var provider=new firebase.auth.GoogleAuthProvider();
+        firebase.initializeApp(firebaseConfig);
+      }
+      var provider = new firebase.auth.GoogleAuthProvider();
 
-     firebase.auth().signInWithPopup(provider);
-     this.btnText="Logged in";
-
-    }
+      firebase.auth().signInWithPopup(provider);
+      this.btnText = "Logged in";
+    },
   },
 };
 </script>

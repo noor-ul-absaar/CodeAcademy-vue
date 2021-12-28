@@ -15,28 +15,28 @@
             <div class="col">
               <img
                 style="width: 20px; height: 20px; padding: 0"
-                src="./5305153_fb_facebook_facebook logo_icon.png"
+                src="./logo/5305153_fb_facebook_facebook logo_icon.png"
                 alt=""
               />
             </div>
             <div class="col">
               <img
                 style="width: 20px; height: 20px; padding: 0"
-                src="./5305170_bird_social media_social network_tweet_twitter_icon.png"
+                src="./logo/5305170_bird_social media_social network_tweet_twitter_icon.png"
                 alt=""
               />
             </div>
             <div class="col">
               <img
                 style="width: 20px; height: 20px; padding: 0"
-                src="./5335781_camera_instagram_social media_instagram logo_icon.png"
+                src="./logo/5335781_camera_instagram_social media_instagram logo_icon.png"
                 alt=""
               />
             </div>
             <div class="col">
               <img
                 style="width: 20px; height: 20px; padding: 0"
-                src="./5305164_play_video_youtube_youtube logo_icon.png"
+                src="./logo/5305164_play_video_youtube_youtube logo_icon.png"
                 alt=""
               />
             </div>
@@ -48,14 +48,14 @@
           <div class="row">
             <img
               style="width: 80%; height: 20%"
-              src="./5a902db97f96951c82922874.png"
+              src="./logo/5a902db97f96951c82922874.png"
               alt=""
             />
           </div>
           <div class="row">
             <img
               style="width: 80%; height: 20%"
-              src="./5a902dbf7f96951c82922875.png"
+              src="./logo/5a902dbf7f96951c82922875.png"
               alt=""
             />
           </div>
