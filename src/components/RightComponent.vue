@@ -17,10 +17,10 @@
         </button>
       </div>
       <div
-        className="row-sm-12 row-md-6 row-lg-4"
+        className="col-sm-12 col-md-6 col-lg-4"
         style="margin-left: 10%; position: relative; z-index: 0"
       >
-        <img src="../I1.jpeg" alt="../I1.jpeg" />
+        <img style="width: 700px" src="../I1.jpeg" alt="../I1.jpeg" />
       </div>
 
       <h3>Most Popular</h3>
@@ -98,7 +98,7 @@
       <h3>Get Inspired</h3>
 
       <div class="row">
-        <div class="col-6">
+        <div class="col-5">
           <div class="row">
             <div v-for="c in cards" v-bind:key="c" class="col">
               <div className="col-sm-12 col-md-6 col-lg-4" style="width: 300px">
@@ -109,7 +109,7 @@
           </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-7">
           <img
             style="width: 500px; height: 400px"
             src="https://images.ctfassets.net/go6kr6r0ykrq/12jJ3cWg6gTfZFfGZZZxM8/ff0e4bd1d60c86f8580a067e2f267854/image__7_.png"
@@ -146,7 +146,7 @@
       <div class="row">
         <div class="col-6">
           <img
-            style="width: 500px; height: 400px; display: block"
+            style="object-fit: cover; display: block; height: 180px"
             src="https://static-assets.codecademy.com/assets/components/resources/article/standard/group-7.svg"
             alt="https://static-assets.codecademy.com/assets/components/resources/article/standard/group-7.svg"
           />

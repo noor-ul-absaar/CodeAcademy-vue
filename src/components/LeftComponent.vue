@@ -45,6 +45,7 @@
         </div>
       </li>
     </ul>
+    <div id="banner-ad" style="width: 300px; height: 250px"></div>
     <div class="ad-container" style="border: 1px solid">
       <Adsense
         data-ad-client="ca-pub-1234567891234567"
@@ -59,6 +60,7 @@
 
 <script>
 import left from "../left.json";
+
 export default {
   data() {
     return {
