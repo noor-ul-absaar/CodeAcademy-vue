@@ -31,6 +31,7 @@ import share_it from "./components/share-it.vue";
 import BottomComponent from "./components/BottomComponent.vue";
 import { initializeApp } from "firebase/app";
 import firebase from "firebase/app";
+document.body.style="background:#fff0e5";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBSDpUN3-xjPAinfw5lIxqMC_4h9pcth9w",
